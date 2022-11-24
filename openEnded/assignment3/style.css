@@ -1,0 +1,27 @@
+body {
+    background-image: url(https://web.archive.org/web/20090820051549/http://geocities.com/northstarzone/MOVINGSTARS.gif);
+  }
+  
+  header{
+    background-color: lightBlue;
+    border: 10px solid lightred;
+  }
+  
+  main{
+    font-family: cursive;
+    color: Blue;
+    background-color: grey;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .speed {
+    max-width: 5em;
+    width: 100%;
+  }
+  
+  footer{
+    background-color: #ff4d4d;
+  }
