@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    margin: auto;
+    height: 15rem;
+    width: auto;
+}
+
+body{
+    background-color:wheat;
+}
+
+header{
+    background-color: cornflowerblue;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coolTop {
+    width: 8rem;
+    height: 8rem;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    margin: 1rem;
+}
+
+main {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: .5rem;
+    min-height: 100vh;
+}
+
+footer{
+    background-color: forestgreen;
+    padding: 2rem;
+}
+
+.floatingLink {
+    visibility: hidden;
+    width: 5rem;
+}
+
+.floatingLink:hover {
+    background-color: rgb(238, 165, 165);
+}
+
+.cool{
+    text-align: center;
+}
+
+.coolImage {
+    width: 20rem;
+    height: 20rem;
+    position: sticky;
+    margin: 50% auto;
+    animation: cool 1s infinite linear;
+}
+
+@keyframes cool {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@media (min-width: 800px) {
+    .coolConvince{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+
+    nav{
+        display: block;
+
+    }
+
+    
+
+    .floatingLink{
+        visibility: visible;
+        position: fixed;
+        left: 1rem;
+        bottom: 8rem;
+        background-color: lightcoral;
+        padding: 1.5rem;
+        transition: background-color 0.2s ease;
+        border-radius: 5px;
+    }
+}
+

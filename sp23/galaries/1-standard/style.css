@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery {
+    max-width: 40rem;
+    margin: 0 auto;
+}
+
+header, footer {
+    padding: 2em;
+    text-align: center;
+}
+
+main {
+    background-color: lightpink;
+}
+
+img {
+    
+}
+
+footer{
+    background-color: lightblue;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
